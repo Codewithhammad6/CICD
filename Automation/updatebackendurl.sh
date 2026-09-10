@@ -12,7 +12,7 @@ echo "============================================"
 echo "🔄 Building & Updating Backend"
 echo "============================================"
 
-NODE_IP="3.137.213.159"
+NODE_IP="3.137.219.159"
 
 if [ -z "$NODE_IP" ]; then
     echo "❌ No worker node public IP found"
