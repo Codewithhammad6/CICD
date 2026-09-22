@@ -25,7 +25,7 @@ services:
     environment:
       NODE_ENV: production
       PORT: 5000
-      MONGO_URL: mongodb://admin:123456@mongodb:27017/SMC?authSource=admin
+      MONGO_URL: mongodb://admin:123456@mongodb:27017/School?authSource=admin
     depends_on:
       - mongodb
     networks:
