@@ -8,7 +8,7 @@ if [ -z "$DOCKER_TAG" ]; then
     exit 1
 fi
 
-echo "============================================"
+
 echo "🔄 Building & Updating Backend"
 
 
